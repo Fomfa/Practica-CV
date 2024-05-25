@@ -14,7 +14,7 @@ ul h3 {
 }
 
 html {
-    background-color: #666;
+    background-color: #181717;
     margin: 0px;
     min-height: 100%;
 }
@@ -26,12 +26,12 @@ body {
     max-width: 650px;
     background-color: #000000;
     text-align: center;
-    
+    border: solid rgb(100, 100, 98);
 }
 
 h2 {
     color: gold;
-
+    font-family: fantasy;
 }
 p {
     color: #fff;
@@ -39,6 +39,8 @@ p {
 }
 
 h1 {
+    font-family: monospace;
+    font-size: 40px;
     color: #fff;
     padding: 5px;
     text-decoration: underline gold;
@@ -66,12 +68,13 @@ h3 {
 
 #bug a {
     color: gold;
+    
 }
 
 #bug a:hover {
-    color: blue;
-
-
+    color: rgba(255, 217, 0, 0.603);
+    font-size: 20px;
+    
 }
 
 footer {
@@ -81,7 +84,6 @@ footer {
 
 @media screen and (max-width=300px) {
     body {
-        background: aqua;
         text-align: center;
         width:100%;
         margin: 0%;

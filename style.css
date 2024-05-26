@@ -14,7 +14,7 @@ ul h3 {
 }
 
 html {
-    background-color: #181717;
+    background: linear-gradient(to bottom, black, gold 200%);
     margin: 0px;
     min-height: 100%;
 }
@@ -27,6 +27,12 @@ body {
     background-color: #000000;
     text-align: center;
     border: solid rgb(100, 100, 98);
+}
+
+img {
+    border: solid rgb(100, 100, 98) 1px;
+    margin-top: 10px;
+
 }
 
 h2 {
@@ -45,6 +51,7 @@ h1 {
     padding: 5px;
     text-decoration: underline gold;
 }
+
 
 section {
     border-top: solid gold;
